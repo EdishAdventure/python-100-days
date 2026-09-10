@@ -12,7 +12,7 @@ elif size == "L":
     pizza_price += 25
 else:
     print("Invalid size selected. Please choose S, M, or L.")
-    exit()
+    exit()  # noqa: PLR1722
 
 if pepperoni == "Y":
     if size == "S":
